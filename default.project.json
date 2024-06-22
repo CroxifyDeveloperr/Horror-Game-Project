@@ -1,0 +1,48 @@
+{
+    "name": "Horror Game Project",
+    "tree": {
+      "$className": "DataModel",
+      "$ignoreUnknownInstances": true,
+
+      "ReplicatedFirst": {
+        "$ignoreUnknownInstances": true,
+        "$className": "ReplicatedFirst",
+        "$path": "src/ReplicatedFirst"
+      },
+  
+      "ReplicatedStorage": {
+        "$ignoreUnknownInstances": true,
+        "$className": "ReplicatedStorage",
+        "$path": "src/ReplicatedStorage"
+      },
+
+      "ServerStorage": {
+        "$ignoreUnknownInstances": true,
+        "$className": "ServerStorage",
+        "$path": "src/ServerStorage"
+      },
+
+      "ServerScriptService": {
+        "$ignoreUnknownInstances": true,
+        "$className": "ServerScriptService",
+        "$path": "src/ServerScriptService"
+      },
+
+      "Workspace": {
+        "$ignoreUnknownInstances": true,
+        "$className": "Workspace",
+        "$path": "src/Workspace"
+      },
+  
+      "StarterPlayer": {
+        "$ignoreUnknownInstances": true,
+        "$className": "StarterPlayer",
+  
+        "StarterPlayerScripts": {
+        "$ignoreUnknownInstances": true,
+          "$className": "StarterPlayerScripts",
+          "$path": "src/StarterPlayerScripts"
+        }
+      }
+    }
+  }
