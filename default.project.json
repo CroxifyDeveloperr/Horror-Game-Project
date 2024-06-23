@@ -13,7 +13,32 @@
       "ReplicatedStorage": {
         "$ignoreUnknownInstances": true,
         "$className": "ReplicatedStorage",
-        "$path": "src/ReplicatedStorage"
+        "$path": "src/ReplicatedStorage",
+
+        "Events": {
+          "$className": "Folder",
+          "$path": "src/ReplicatedStorage",
+
+          "Remotes": {
+          "$className": "Folder",
+          "$path": "src/ReplicatedStorage/Events",
+
+          "ServerEvent": {
+            "$className": "RemoteFunction",
+            "$path": "src/ReplicatedStorage/Events/Remotes"
+          },
+
+          "PlaySound": {
+            "$className": "RemoteEvent",
+            "$path": "src/ReplicatedStorage/Events/Remotes"
+          },
+
+          "UpdateGui": {
+            "$className": "RemoteEvent",
+            "$path": "src/ReplicatedStorage/Events/Remotes"
+          }
+          }
+        }
       },
 
       "ServerStorage": {
