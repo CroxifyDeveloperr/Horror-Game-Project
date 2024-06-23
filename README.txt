@@ -1,1 +1,1 @@
-This is a portfolio project I've developed that showcases my understanding of Luau
+This is a portfoliopProject I've developed that showcases my understanding & organization of the Luau programming language.
