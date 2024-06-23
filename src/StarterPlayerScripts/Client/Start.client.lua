@@ -114,7 +114,6 @@ end
 
 ServerWarn("=== STARTING CLIENT || LOADING HANDLERS ===")
 for _, module in ipairs(handlers:GetChildren()) do
-    task.wait(2)
     LoadModule(module)
 end
 

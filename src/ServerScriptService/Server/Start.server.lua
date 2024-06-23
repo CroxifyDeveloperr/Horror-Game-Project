@@ -109,7 +109,6 @@ end
 -------------------------
 ServerWarn("=== STARTING SERVER || LOADING SERVICES ===")
 for _, module in ipairs(services:GetChildren()) do
-    task.wait(2)
     LoadModule(module)
 end
 
